@@ -1,0 +1,11 @@
+body {
+  background-image: url(assets/background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.img1 {
+  width: 150px;
+  height: 150px;
+}
