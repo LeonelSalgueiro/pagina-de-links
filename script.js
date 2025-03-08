@@ -1,10 +1,12 @@
 function toggleMode() {
   const html = document.documentElement
-
-  // if (html.classList.contains('Light')) {
-  //   html.classList.remove('Light')
-  // } else {
-  //   html.classList.add('Light')
-  // }
   html.classList.toggle('light')
+
+  const img = document.querySelector("#profile img")
+
+   if (html.classList.contains('light')) {
+     img.setAtribute('src', './assets/avatar.bg.light.jpg')
+   } else {
+     img.setAtribute('src', './assets/avatar.bg.png')
+   }
 }
